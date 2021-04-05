@@ -1,0 +1,146 @@
+///
+/// Paradigm Shift by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Table */
+
+	.table-legend {
+		.inline-icon {
+			padding: 10px;
+			height: 50px;
+
+			&.free {
+				background-color: #CBFFC4;
+			}
+
+			&.pending {
+				background-color: #FFE3C4;
+			}
+
+			&.confirmed {
+				background-color: #EDFFFF;
+			}
+		}
+	}
+
+	.table-wrapper {
+		-webkit-overflow-scrolling: touch;
+		overflow-x: auto;
+	}
+
+	table {
+		// margin: 0 0 _size(element-margin) 0;
+		margin: 0;
+		width: 100%;
+
+		tbody {
+			tr {
+				border: solid 1px _palette(border);
+				border-left: 0;
+				border-right: 0;
+
+				&.half-day {
+					height: 350px;
+				}
+
+				&.rows-1 {
+					height: 60px;
+				}
+
+				&.rows-2 {
+					height: 120px;
+				}
+
+				&.rows-3 {
+					height: 180px;
+				}
+			}
+		}
+
+		td {
+			padding: 0.75rem 0.75rem;
+			text-align: center;
+			vertical-align: middle;
+		}
+
+		th {
+			color: _palette(fg-bold);
+			font-size: 0.9rem;
+			font-weight: _font(weight-bold);
+			padding: 0.75rem 0.75rem;
+			text-align: center;
+		}
+
+		thead {
+			border-bottom: solid 2px _palette(border);
+		}
+
+		tfoot {
+			border-top: solid 2px _palette(border);
+		}
+
+		&.alt {
+			border-collapse: separate;
+
+			tbody {
+				tr {
+					td {
+						border: solid 1px _palette(border);
+						border-left-width: 0;
+						border-top-width: 0;
+
+						&:first-child {
+							border-left-width: 1px;
+						}
+					}
+
+					&:first-child {
+						td {
+							border-top-width: 1px;
+						}
+					}
+				}
+			}
+
+			thead {
+				border-bottom: 0;
+			}
+
+			tfoot {
+				border-top: 0;
+			}
+		}
+
+		&.schedule-table {
+			td {
+				background-color: #FFF;
+				line-height: 18pt;
+
+				&.free {
+					background-color: #CBFFC4;
+				}
+
+				&.pending {
+					background-color: #FFE3C4;
+				}
+
+				&.confirmed {
+					background-color: #EDFFFF;
+				}
+			}
+		}
+
+		&.two-cols {
+			td {
+				width: 50%;
+			}
+		}
+
+		&.three-cols {
+			td {
+				width: calc(100% / 3);
+			}
+		}
+	}
