@@ -51,3 +51,12 @@
 // Layout.
 
 	@import 'layout/wrapper';
+
+.img-responsive {
+	max-width: 100%;
+}
+
+.communities a {
+	text-decoration: none;
+	border-bottom: 0;
+}

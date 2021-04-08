@@ -2454,3 +2454,10 @@ body.is-ie #wrapper > section > .content > section {
 @media screen and (max-width: 1280px) {
   body.is-ie #wrapper section > footer {
     padding: 4rem; } }
+
+.img-responsive {
+  max-width: 100%; }
+
+.communities a {
+  text-decoration: none;
+  border-bottom: 0; }

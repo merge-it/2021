@@ -65,7 +65,79 @@ head();
 				</header>
 				<div class="content">
 					<div class="table-wrapper">
-						<p>In corso di definizione.</p>
+						<?php
+
+						$logos = [
+							(object) [
+								'image' => 'fsfe.png',
+								'link' => 'https://fsfe.org/',
+							],
+							(object) [
+								'image' => 'garr.png',
+								'link' => 'https://garr.it/it/',
+							],
+							(object) [
+								'image' => 'gfoss.png',
+								'link' => 'https://gfoss.it/',
+							],
+							(object) [
+								'image' => 'ils.png',
+								'link' => 'https://www.ils.org/',
+							],
+							(object) [
+								'image' => 'isf.png',
+								'link' => 'https://www.informaticisenzafrontiere.org/',
+							],
+							(object) [
+								'image' => 'lavagnalibera.png',
+								'link' => 'http://www.wiildos.it/',
+							],
+							(object) [
+								'image' => 'libreitalia.png',
+								'link' => 'https://www.libreitalia.org/',
+							],
+							(object) [
+								'image' => 'mozillaitalia.png',
+								'link' => 'https://www.mozillaitalia.org/',
+							],
+							(object) [
+								'image' => 'ondata.png',
+								'link' => 'https://ondata.it/',
+							],
+							(object) [
+								'image' => 'osm.png',
+								'link' => 'https://wiki.openstreetmap.org/wiki/Italy',
+							],
+							(object) [
+								'image' => 'pythonitalia.png',
+								'link' => 'https://associazione.python.it/',
+							],
+							(object) [
+								'image' => 'rustitalia.png',
+								'link' => 'https://community.mozilla.org/es/groups/rust-italia/',
+							],
+							(object) [
+								'image' => 'teamdigitale.png',
+								'link' => 'https://developers.italia.it/',
+							],
+							(object) [
+								'image' => 'wikimedia.png',
+								'link' => 'https://www.wikimedia.it/',
+							],
+						];
+
+						shuffle($logos);
+
+						?>
+						<div class="row communities">
+							<?php foreach($logos as $meta): ?>
+								<div class="col-2">
+									<a href="<?php echo $meta->link ?>">
+										<img class="img-responsive" src="/images/loghi/<?php echo $meta->image ?>">
+									</a>
+								</div>
+							<?php endforeach ?>
+						</div>
 					</div>
 				</div>
 			</section>
