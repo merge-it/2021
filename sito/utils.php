@@ -10,7 +10,7 @@ function head($title = '')
     		<title>MERGE-it 2021<?php echo (empty($title) ? '' : ": $title") ?></title>
     		<meta charset="utf-8" />
     		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    		<meta name="description" content="" />
+    		<meta name="description" content="La Community si incontra" />
     		<meta name="keywords" content="libertà digitali, opensource, freesoftware, software libero, creative commons, pubblica amministrazione, impresa, torino, aprile" />
 
     		<link rel="stylesheet" href="/assets/css/main.css" />
@@ -23,6 +23,12 @@ function head($title = '')
     		<meta property="og:country-name" content="Italy" />
     		<meta property="og:email" content="info@merge-it.net" />
     		<meta property="og:locale" content="it_IT" />
+
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta property="twitter:image" content="https://merge-it.net/images/fb.png" />
+                <meta property="twitter:title" content="MERGE-it" />
+                <meta name="twitter:site" content="@merge_it" />
+                <meta name="twitter:creator" content="@merge_it" />
     	</head>
     	<body class="is-preload">
     		<div id="wrapper">
