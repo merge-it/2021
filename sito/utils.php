@@ -11,7 +11,6 @@ function head($title = '')
     		<meta charset="utf-8" />
     		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     		<meta name="description" content="La Community si incontra" />
-    		<meta name="keywords" content="libertà digitali, opensource, freesoftware, software libero, creative commons, pubblica amministrazione, impresa, torino, aprile" />
 
     		<link rel="stylesheet" href="/assets/css/main.css" />
 
@@ -82,6 +81,8 @@ function contacts()
 		<div class="content">
 			<p>Per metterti in contatto con l'organizzazione di <strong>MERGE-it</strong> usa i contatti indicati accanto.</p>
             <p>Oppure partecipa al <a href="http://online.merge-it.net/">MERGE-it Online</a>, call a cadenza mensile aperta a tutti e presso cui interagire a voce con diversi rappresentanti della community italiana.</p>
+            
+            <p><a href="http://merge-it.net/coc.php">Codice di Condotta</a>.</p>
 		</div>
 		<footer>
 			<ul class="items">
