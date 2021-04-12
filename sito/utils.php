@@ -82,7 +82,7 @@ function contacts()
 			<p>Per metterti in contatto con l'organizzazione di <strong>MERGE-it</strong> usa i contatti indicati accanto.</p>
             <p>Oppure partecipa al <a href="http://online.merge-it.net/">MERGE-it Online</a>, call a cadenza mensile aperta a tutti e presso cui interagire a voce con diversi rappresentanti della community italiana.</p>
             
-            <p><a href="http://merge-it.net/coc.php">Codice di Condotta</a>.</p>
+            <p><a href="http://merge-it.net/codicedicondotta.php">Codice di Condotta</a>.</p>
 		</div>
 		<footer>
 			<ul class="items">
