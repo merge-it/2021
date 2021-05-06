@@ -113,6 +113,10 @@ head();
 								'link' => 'https://associazione.python.it/',
 							],
 							(object) [
+								'image' => 'scalaitaly.png',
+								'link' => 'https://scala-italy.it/',
+							],
+							(object) [
 								'image' => 'rustitalia.png',
 								'link' => 'https://community.mozilla.org/es/groups/rust-italia/',
 							],
@@ -149,36 +153,44 @@ head();
 						Tavole rotonde tematiche, per mettere a confronto i diversi punti di vista e fare il punto della situazione in Italia.
 					</p>
 					<p>
-						Dalle ore 15:00 alle ore 18:00.
+						Dalle ore 14:30 alle ore 18:00.
 					</p>
 				</header>
 				<div class="content">
 					<div class="table-wrapper">
+                        <h3 style="width:100%;display:block;text-align:center;">Ogni cambio di sessione ha 15 minuti di intervallo.</h3>
 						<table class="alt schedule-table">
 							<tr class="half-day">
 								<td class="pending" width="33%">
-									<strong>Sessione 1A</strong><br>In corso di definizione
+									<strong>1A: La didattica in DAD dalla formazione docenti ai problemi tecnici</strong><br>
+									LibreItalia, Lavagna Libera, FSFE, GARR, ISF
 								</td>
 								<td class="pending" width="33%">
-									<strong>Sessione 2A</strong><br>In corso di definizione
+									<strong>1A: Sviluppo con l'open source all'interno dell'azienda e nel mondo accademico</strong><br>
+									GFOSS.it, Python Italia, Rust Italia, ILS, Scala Italy: 
 								</td>
 								<td class="pending" width="33%">
-									<strong>Sessione 3A</strong><br>In corso di definizione
+									<strong>Sessione 3A</strong><br>
+									Wikimedia, OpenStreetMap, onData, <!--Team Digitale,--> LibreItalia: Open Data, licenze e formati, dataset
 								</td>
 							</tr>
 							<tr class="half-day">
 								<td class="pending" width="33%">
-									<strong>Sessione 1B</strong><br>In corso di definizione
+									<strong>1B: Open Source nella Pubblica Amministrazione</strong><br>
+									Libreitalia, <!--Team Digitale?,--> GARR
 								</td>
 								<td class="pending" width="33%">
-									<strong>Sessione 2B</strong><br>In corso di definizione
+									<strong>2B: Coinvolgimento sociale nel mondo Open Source</strong><br>
+									Mozilla Italia, ISF, OpenStreetMap, Lavagna Libera
 								</td>
 								<td class="pending" width="33%">
-									<strong>Sessione 3B</strong><br>In corso di definizione
+									<strong>3B: Community management, struttura a livello nazionale/locale</strong><br>
+									Wikimedia, Mozilla Italia, Python Italia, ILS, Rust Italia
 								</td>
 							</tr>
 						</table>
 					</div>
+					<h3 style="width:100%;display:block;text-align:center;">Presentazione di chiusura con i numeri della giornata.</h3>
 				</div>
 			</section>
 		</div>
