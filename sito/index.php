@@ -166,18 +166,18 @@ head();
 									LibreItalia, Lavagna Libera, FSFE, GARR, ISF
 								</td>
 								<td class="pending" width="33%">
-									<strong>1A: Sviluppo con l'open source all'interno dell'azienda e nel mondo accademico</strong><br>
+									<strong>2A: Sviluppo con l'open source all'interno dell'azienda e nel mondo accademico</strong><br>
 									GFOSS.it, Python Italia, Rust Italia, ILS, Scala Italy: 
 								</td>
 								<td class="pending" width="33%">
-									<strong>Sessione 3A</strong><br>
-									Wikimedia, OpenStreetMap, onData, <!--Team Digitale,--> LibreItalia: Open Data, licenze e formati, dataset
+									<strong>3A: Open Data, licenze e formati, dataset</strong><br>
+									Wikimedia, OpenStreetMap, onData, Team Digitale, LibreItalia: Open Data, licenze e formati, dataset
 								</td>
 							</tr>
 							<tr class="half-day">
 								<td class="pending" width="33%">
 									<strong>1B: Open Source nella Pubblica Amministrazione</strong><br>
-									Libreitalia, <!--Team Digitale?,--> GARR
+									Libreitalia, Team Digitale, GARR
 								</td>
 								<td class="pending" width="33%">
 									<strong>2B: Coinvolgimento sociale nel mondo Open Source</strong><br>
