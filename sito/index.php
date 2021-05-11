@@ -163,7 +163,7 @@ head();
 							<tr class="half-day">
 								<td class="pending" width="33%">
 									<strong>1A: La didattica in DAD dalla formazione docenti ai problemi tecnici</strong><br>
-									LibreItalia, Lavagna Libera, FSFE, GARR, ISF
+									LibreItalia, Lavagna Libera, GARR, ISF
 								</td>
 								<td class="pending" width="33%">
 									<strong>2A: Sviluppo con l'open source all'interno dell'azienda e nel mondo accademico</strong><br>
@@ -177,7 +177,7 @@ head();
 							<tr class="half-day">
 								<td class="pending" width="33%">
 									<strong>1B: Open Source nella Pubblica Amministrazione</strong><br>
-									Libreitalia, Team Digitale, GARR
+									Libreitalia, Team Digitale, GARR, FSFE
 								</td>
 								<td class="pending" width="33%">
 									<strong>2B: Coinvolgimento sociale nel mondo Open Source</strong><br>
