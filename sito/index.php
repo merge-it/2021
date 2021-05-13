@@ -153,44 +153,58 @@ head();
 						Tavole rotonde tematiche, per mettere a confronto i diversi punti di vista e fare il punto della situazione in Italia.
 					</p>
 					<p>
-						Dalle ore 14:30 alle ore 18:00.
+						Dalle ore 14:30 alle ore 18:30.
 					</p>
 				</header>
 				<div class="content">
 					<div class="table-wrapper">
-                        <h3 style="width:100%;display:block;text-align:center;">Ogni cambio di sessione ha 15 minuti di intervallo.</h3>
 						<table class="alt schedule-table">
 							<tr class="half-day">
-								<td class="pending" width="33%">
+								<td width="10%">
+									14:30
+								</td>
+								<td class="pending" width="30%">
 									<strong>1A: La didattica in DAD dalla formazione docenti ai problemi tecnici</strong><br>
 									LibreItalia, Lavagna Libera, GARR, ISF
 								</td>
-								<td class="pending" width="33%">
+								<td class="pending" width="30%">
 									<strong>2A: Sviluppo con l'open source all'interno dell'azienda e nel mondo accademico</strong><br>
 									GFOSS.it, Python Italia, Rust Italia, ILS, Scala Italy: 
 								</td>
-								<td class="pending" width="33%">
+								<td class="pending" width="30%">
 									<strong>3A: Open Data, licenze e formati, dataset</strong><br>
 									Wikimedia, OpenStreetMap, onData, Developers Italia, LibreItalia
 								</td>
 							</tr>
+							<tr>
+								<td colspan="4">
+									INTERVALLO
+								</td>
+							</tr>
 							<tr class="half-day">
-								<td class="pending" width="33%">
+								<td width="10%">
+									16:30
+								</td>
+								<td class="pending" width="30%">
 									<strong>1B: Open Source nella Pubblica Amministrazione</strong><br>
 									Libreitalia, Developers Italia, GARR, FSFE
 								</td>
-								<td class="pending" width="33%">
+								<td class="pending" width="30%">
 									<strong>2B: Coinvolgimento sociale nel mondo Open Source</strong><br>
 									Mozilla Italia, ISF, OpenStreetMap, Lavagna Libera
 								</td>
-								<td class="pending" width="33%">
+								<td class="pending" width="30%">
 									<strong>3B: Community management, struttura a livello nazionale/locale</strong><br>
 									Wikimedia, Mozilla Italia, Python Italia, ILS, Rust Italia
 								</td>
 							</tr>
+							<tr>
+								<td colspan="4">
+									CHIUSURA DELL'EVENTO
+								</td>
+							</tr>
 						</table>
 					</div>
-					<h3 style="width:100%;display:block;text-align:center;">Presentazione di chiusura con i numeri della giornata.</h3>
 				</div>
 			</section>
 		</div>
