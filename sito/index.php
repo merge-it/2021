@@ -171,13 +171,13 @@ head();
 								</td>
 								<td class="pending" width="33%">
 									<strong>3A: Open Data, licenze e formati, dataset</strong><br>
-									Wikimedia, OpenStreetMap, onData, Team Digitale, LibreItalia: Open Data, licenze e formati, dataset
+									Wikimedia, OpenStreetMap, onData, Developers Italia, LibreItalia
 								</td>
 							</tr>
 							<tr class="half-day">
 								<td class="pending" width="33%">
 									<strong>1B: Open Source nella Pubblica Amministrazione</strong><br>
-									Libreitalia, Team Digitale, GARR, FSFE
+									Libreitalia, Developers Italia, GARR, FSFE
 								</td>
 								<td class="pending" width="33%">
 									<strong>2B: Coinvolgimento sociale nel mondo Open Source</strong><br>
