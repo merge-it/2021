@@ -169,7 +169,7 @@ head();
 								</td>
 								<td class="pending" width="30%">
 									<strong>2A: Sviluppo con l'open source all'interno dell'azienda e nel mondo accademico</strong><br>
-									GFOSS.it, Python Italia, Rust Italia, ILS, Scala Italy: 
+									GFOSS.it, Python Italia, Rust Italia, ILS, Scala Italy
 								</td>
 								<td class="pending" width="30%">
 									<strong>3A: Open Data, licenze e formati, dataset</strong><br>
