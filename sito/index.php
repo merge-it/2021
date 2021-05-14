@@ -136,8 +136,8 @@ head();
 						<div class="row communities">
 							<?php foreach($logos as $meta): ?>
 								<div class="col-2">
-									<a href="<?= htmlspecialchars( $meta->link ) ?>">
-										<img class="img-responsive" src="/images/loghi/<?= htmlspecialchars( $meta->image ) ?>">
+									<a href="<?= htmlspecialchars( $meta['link'] ) ?>">
+										<img class="img-responsive" src="/images/loghi/<?= htmlspecialchars( $meta['image'] ) ?>">
 									</a>
 								</div>
 							<?php endforeach ?>
