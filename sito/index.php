@@ -68,63 +68,63 @@ head();
 						<?php
 
 						$logos = [
-							(object) [
+							[
 								'image' => 'fsfe.png',
 								'link' => 'https://fsfe.org/',
 							],
-							(object) [
+							[
 								'image' => 'garr.png',
 								'link' => 'https://garr.it/it/',
 							],
-							(object) [
+							[
 								'image' => 'gfoss.png',
 								'link' => 'https://gfoss.it/',
 							],
-							(object) [
+							[
 								'image' => 'ils.png',
 								'link' => 'https://www.ils.org/',
 							],
-							(object) [
+							[
 								'image' => 'isf.png',
 								'link' => 'https://www.informaticisenzafrontiere.org/',
 							],
-							(object) [
+							[
 								'image' => 'lavagnalibera.png',
 								'link' => 'http://www.wiildos.it/',
 							],
-							(object) [
+							[
 								'image' => 'libreitalia.png',
 								'link' => 'https://www.libreitalia.org/',
 							],
-							(object) [
+							[
 								'image' => 'mozillaitalia.png',
 								'link' => 'https://www.mozillaitalia.org/',
 							],
-							(object) [
+							[
 								'image' => 'ondata.png',
 								'link' => 'https://ondata.it/',
 							],
-							(object) [
+							[
 								'image' => 'osm.png',
 								'link' => 'https://wiki.openstreetmap.org/wiki/Italy',
 							],
-							(object) [
+							[
 								'image' => 'pythonitalia.png',
 								'link' => 'https://associazione.python.it/',
 							],
-							(object) [
+							[
 								'image' => 'scalaitaly.png',
 								'link' => 'https://scala-italy.it/',
 							],
-							(object) [
+							[
 								'image' => 'rustitalia.png',
 								'link' => 'https://community.mozilla.org/es/groups/rust-italia/',
 							],
-							(object) [
+							[
 								'image' => 'teamdigitale.png',
 								'link' => 'https://developers.italia.it/',
 							],
-							(object) [
+							[
 								'image' => 'wikimedia.png',
 								'link' => 'https://www.wikimedia.it/',
 							],
@@ -136,8 +136,8 @@ head();
 						<div class="row communities">
 							<?php foreach($logos as $meta): ?>
 								<div class="col-2">
-									<a href="<?php echo $meta->link ?>">
-										<img class="img-responsive" src="/images/loghi/<?php echo $meta->image ?>">
+									<a href="<?= htmlspecialchars( $meta->link ) ?>">
+										<img class="img-responsive" src="/images/loghi/<?= htmlspecialchars( $meta->image ) ?>">
 									</a>
 								</div>
 							<?php endforeach ?>
@@ -160,7 +160,7 @@ head();
 					<div class="table-wrapper">
 						<table class="alt schedule-table">
 							<tr class="half-day">
-								<td width="10%">
+								<td width="10%" class="text-left">
 									14:30
 								</td>
 								<td class="pending" width="30%">
@@ -177,12 +177,13 @@ head();
 								</td>
 							</tr>
 							<tr>
-								<td colspan="4">
-									INTERVALLO
+								<td colspan="4" style="weight: 2em;">
+									<div style="float:left">16:00</div>
+									<div style="text-align:center">INTERVALLO</div>
 								</td>
 							</tr>
 							<tr class="half-day">
-								<td width="10%">
+								<td width="10%" class="text-left">
 									16:30
 								</td>
 								<td class="pending" width="30%">
@@ -199,8 +200,9 @@ head();
 								</td>
 							</tr>
 							<tr>
-								<td colspan="4">
-									CHIUSURA DELL'EVENTO
+								<td colspan="4" style="weight: 2em;">
+									<div style="float:left">18:30</div>
+									<div style="text-align:center">SALUTI FINALI</div>
 								</td>
 							</tr>
 						</table>

@@ -2461,3 +2461,9 @@ body.is-ie #wrapper > section > .content > section {
 .communities a {
   text-decoration: none;
   border-bottom: 0; }
+
+.text-left {
+  text-align: left; }
+
+.text-right {
+  text-align: right; }
