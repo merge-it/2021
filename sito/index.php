@@ -142,6 +142,11 @@ head();
 								</div>
 							<?php endforeach ?>
 						</div>
+						<p class="communities__link">
+							<a href="https://merge-it.net/collegamenti.php">
+								Collegamenti alle comunità
+							</a>
+						</p>
 					</div>
 				</div>
 			</section>
