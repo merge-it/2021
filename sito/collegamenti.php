@@ -3,6 +3,64 @@
 require_once('utils.php');
 
 $communities = [
+    'LibreItalia' => [
+        'id' => 'libreitalia',
+        'links' => [
+            'Sito' => 'https://www.libreitalia.org/',
+            'Twitter' => 'https://twitter.com/libreitalia',
+            'Facebook' => 'https://www.facebook.com/libreitalia',
+            'Telegram' => 'https://t.me/libreitalia'
+        ]
+    ],
+    'Developers Italia' => [
+        'id' => 'devitalia',
+        'links' => [
+            'Sito' => 'https://developers.italia.it/',
+            'Slack' => 'https://slack.developers.italia.it/'
+        ]
+    ],
+    'Wikimedia Italia' => [
+        'id' => 'wikitalia',
+        'links' => [
+            'Sito' => 'https://www.wikimedia.it/'
+        ]
+    ],
+    'Free Software Foundation Europe' => [
+        'id' => 'fsfe',
+        'links' => [
+            'Sito' => 'https://fsfe.org/',
+            'Forum' => 'https://community.fsfe.org/'
+        ]
+    ],
+    'Informatici senza Frontiere' => [
+        'id' => 'isf',
+        'links' => [
+            'Sito' => 'https://www.informaticisenzafrontiere.org/',
+            'Twitter' => 'https://twitter.com/informatici',
+            'Facebook' => 'https://www.facebook.com/InformaticiSenzaFrontiere'
+        ]
+    ],
+    'Python Italia' => [
+        'id' => 'pythonitalia',
+        'links' => [
+            'Sito' => 'https://associazione.python.it/'
+        ]
+    ],
+    'onData' => [
+        'id' => 'ondata',
+        'links' => [
+            'Sito' => 'https://ondata.it/',
+            'Twitter' => 'https://twitter.com/ondatait'
+        ]
+    ],
+    'Mozilla Italia' => [
+        'id' => 'mozita',
+        'links' => [
+            'Sito' => 'https://www.mozillaitalia.org/',
+            'Twitter' => 'https://twitter.com/Mte90Net',
+            'Telegram' => 'https://t.me/mozitabot'
+        ]
+    ],
     'Rust' => [
         'id' => 'rust',
         'links' => [
