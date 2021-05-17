@@ -2472,3 +2472,7 @@ body.is-ie #wrapper > section > .content > section {
 
 .live_box {
   padding: 10px; }
+
+.communities__link {
+  font-size: large;
+  text-align: center; }
