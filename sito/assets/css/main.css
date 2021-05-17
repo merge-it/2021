@@ -2462,5 +2462,13 @@ body.is-ie #wrapper > section > .content > section {
   text-decoration: none;
   border-bottom: 0; }
 
+.topbar {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #F00; }
+
+.topbar .button {
+  background-color: #FFF; }
+
 .live_box {
   padding: 10px; }

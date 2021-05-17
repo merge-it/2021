@@ -1,7 +1,39 @@
 <?php
 require_once('utils.php');
 head();
+
+/*
+	$live_one è da mettere a true quando c'è una sola sessione attiva (presentazioni del mattino / saluti finali)
+	$live_all è da mettere a true quando ci sono le sessioni parallele attive (tavole rotonde del pomeriggio)
+*/
+$live_one = false;
+$live_all = false;
+
 ?>
+
+	<?php if($live_one): ?>
+		<div class="row topbar">
+			<div class="col-12">
+				<h3>ORA IN DIRETTA STREAMING</h3>
+			</div>
+			<div class="col-12">
+				<a href="live.php?room=1" class="button large">CLICCA QUI</a>
+			</div>
+		</div>
+	<?php endif ?>
+
+	<?php if($live_all): ?>
+		<div class="row topbar">
+			<div class="col-12">
+				<h3>ORA IN DIRETTA STREAMING</h3>
+			</div>
+			<div class="col-12">
+				<a href="live.php?room=1" class="button large">SESSIONE 1</a>
+				<a href="live.php?room=2" class="button large">SESSIONE 2</a>
+				<a href="live.php?room=3" class="button large">SESSIONE 3</a>
+			</div>
+		</div>
+	<?php endif ?>
 
 	<section class="intro">
 		<header>
@@ -64,6 +96,13 @@ head();
 					</p>
 				</header>
 				<div class="content">
+					<?php if($live_one): ?>
+						<div class="topbar">
+							<a href="live.php?room=1" class="button large">SEGUI LA DIRETTA STREAMING</a>
+						</div>
+						<br>
+					<?php endif ?>
+
 					<div class="table-wrapper">
 						<?php
 
@@ -159,6 +198,15 @@ head();
 				<div class="content">
 					<div class="table-wrapper">
 						<table class="alt schedule-table">
+							<?php if($live_all): ?>
+								<tr>
+									<td></td>
+									<td><div class="topbar"><a href="live.php?room=1" class="button">SEGUI LA DIRETTA</a></div></td>
+									<td><div class="topbar"><a href="live.php?room=2" class="button">SEGUI LA DIRETTA</a></div></td>
+									<td><div class="topbar"><a href="live.php?room=3" class="button">SEGUI LA DIRETTA</a></div></td>
+								</tr>
+							<?php endif ?>
+
 							<tr class="half-day">
 								<td width="10%" class="text-left">
 									14:30
@@ -205,6 +253,15 @@ head();
 									<div style="text-align:center">SALUTI FINALI</div>
 								</td>
 							</tr>
+
+							<?php if($live_all): ?>
+								<tr>
+									<td></td>
+									<td><div class="topbar"><a href="live.php?room=1" class="button">SEGUI LA DIRETTA</a></div></td>
+									<td><div class="topbar"><a href="live.php?room=2" class="button">SEGUI LA DIRETTA</a></div></td>
+									<td><div class="topbar"><a href="live.php?room=3" class="button">SEGUI LA DIRETTA</a></div></td>
+								</tr>
+							<?php endif ?>
 						</table>
 					</div>
 				</div>
