@@ -61,6 +61,34 @@ $communities = [
             'Telegram' => 'https://t.me/mozitabot'
         ]
     ],
+    'GFOSS' => [
+        'id' => 'gfoss',
+        'links' => [
+            'Sito' => 'https://gfoss.it/',
+            'Twitter' => 'https://twitter.com/gfossit'
+        ]
+    ],
+    'Italian Linux Society' => [
+        'id' => 'ils',
+        'links' => [
+            'Sito' => 'https://www.ils.org/',
+            'Twitter' => 'https://twitter.com/ItaLinuxSociety',
+            'Facebook' => 'https://www.facebook.com/ItaLinuxSociety/',
+            'Forum' => 'https://forum.linux.it/'
+        ]
+    ],
+    'Scala Italy' => [
+        'id' => 'scala',
+        'links' => [
+            'Sito' => 'https://scala-italy.it/'
+        ]
+    ],
+    'OpenStreetMap Italia' => [
+        'id' => 'osm',
+        'links' => [
+            'Sito' => 'https://wiki.openstreetmap.org/wiki/Italy'
+        ]
+    ],
     'Rust' => [
         'id' => 'rust',
         'links' => [
@@ -69,6 +97,12 @@ $communities = [
             'Telegram di Rust Torino' => 'https://t.me/torinorust',
             'Meetup di Rust Milano' => 'https://www.meetup.com/rust-language-milano/',
             'Meetup di Rust Roma' => 'https://www.meetup.com/it-IT/Rust-Roma/'
+        ]
+    ],
+    'Lavagna Libera' => [
+        'id' => 'wiidos',
+        'links' => [
+            'Sito' => 'http://www.wiildos.it/'
         ]
     ]
 ];
