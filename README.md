@@ -18,6 +18,11 @@ Poi visita:
 
 http://localhost:8080/
 
+### Info utili
+
+* Il server utilizza la versione 7.2 di PHP
+* Il _processing_ dei file SASS va eseguita manualmente in caso di modifiche. Si raccomanda di utilizzare [`sassc`](https://github.com/sass/sassc) per diminuire al minimo differenze legate alla compilazione e non alle reali modifiche introdotte.
+
 ## Licenza
 
 Il codice sorgente di questo repository non è sufficientemente creativo per essere coperto da copyright. Quindi è rilasciato in pubblico dominio (CC 0).
