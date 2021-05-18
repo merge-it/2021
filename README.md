@@ -18,6 +18,10 @@ Poi visita:
 
 http://localhost:8080/
 
+Compilare il Sass:
+
+`sassc sito/assets/sass/main.scss sito/assets/css/main.css`
+
 ## Licenza
 
 Il codice sorgente di questo repository non è sufficientemente creativo per essere coperto da copyright. Quindi è rilasciato in pubblico dominio (CC 0).
