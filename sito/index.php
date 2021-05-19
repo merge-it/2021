@@ -76,6 +76,7 @@ $live_all = false;
 		</header>
 		<div class="content">
 			<p><strong>MERGE-it</strong> 2021 si svolge nella giornata di <strong>sabato 22 maggio 2021</strong>, interamente online.</p>
+			<p>Tutti i partecipanti (sia in video conferenze che via chat) sono tenuti ad attenersi al seguente <a href="http://merge-it.net/codicedicondotta.php">codice di condotta</a>.</p>
 			<p>Visita questa pagina nel giorno designato per trovare tutti i link ed i riferimenti per accedere allo streaming web ed alle chat contestuali con cui partecipare alla manifestazione, avanzare domande e suggerire considerazioni.</p>
 		</div>
 	</section>
@@ -110,10 +111,6 @@ $live_all = false;
 							[
 								'image' => 'fsfe.png',
 								'link' => 'https://fsfe.org/',
-							],
-							[
-								'image' => 'garr.png',
-								'link' => 'https://garr.it/it/',
 							],
 							[
 								'image' => 'gfoss.png',
@@ -218,7 +215,7 @@ $live_all = false;
 								</td>
 								<td class="pending" width="30%">
 									<strong>1A: La didattica in DAD dalla formazione docenti ai problemi tecnici</strong><br>
-									LibreItalia, Lavagna Libera, GARR, ISF
+									LibreItalia, Lavagna Libera, ISF
 								</td>
 								<td class="pending" width="30%">
 									<strong>2A: Sviluppo con l'open source all'interno dell'azienda e nel mondo accademico</strong><br>
@@ -231,7 +228,7 @@ $live_all = false;
 							</tr>
 							<tr>
 								<td colspan="4" style="weight: 2em;">
-									<div style="float:left">16:00</div>
+									<div style="float:left;margin-left: 15px;">16:00</div>
 									<div style="text-align:center">INTERVALLO</div>
 								</td>
 							</tr>
@@ -241,7 +238,7 @@ $live_all = false;
 								</td>
 								<td class="pending" width="30%">
 									<strong>1B: Open Source nella Pubblica Amministrazione</strong><br>
-									Libreitalia, Developers Italia, GARR, FSFE
+									Libreitalia, Developers Italia, FSFE
 								</td>
 								<td class="pending" width="30%">
 									<strong>2B: Coinvolgimento sociale nel mondo Open Source</strong><br>
@@ -254,7 +251,7 @@ $live_all = false;
 							</tr>
 							<tr>
 								<td colspan="4" style="weight: 2em;">
-									<div style="float:left">18:30</div>
+									<div style="float:left;margin-left: 15px;">18:00/18:30</div>
 									<div style="text-align:center">SALUTI FINALI</div>
 								</td>
 							</tr>

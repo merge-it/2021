@@ -7,7 +7,7 @@ $unified = false;
 $hour = date('H');
 
 if ($unified) {
-	$chat_url = 'mergeit1';
+	$chat_url = 'general';
 	$player_url = 'https://garr.tv/s/609fe2ee8780485dbd721f46';
 
 	if ($hour < 14) {
