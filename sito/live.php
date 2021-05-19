@@ -68,9 +68,6 @@ else {
     window.opening_hour = new Date().getHours();
     window.opening_minute = new Date().getMinutes();
     window.opening = parseInt(window.opening_hour + '' + window.opening_minute);
-    window.mattina = (window.opening_hour <= 14);
-    window.prima_sessione = (window.opening_hour <= 16);
-    window.seconda_sessione = (window.opening_hour <= 18);
     // Ricarica se la pagina è aperta da prima dell'intervallo dopo le 16
     setInterval(function(){
             var nowDate = new Date();
