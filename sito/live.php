@@ -68,7 +68,7 @@ else {
     window.opening_hour = new Date().getHours();
     window.opening_minute = new Date().getMinutes();
     window.opening = parseInt(window.opening_hour + '' + window.opening_minute);
-    // Ricarica se la pagina è aperta da prima dell'intervallo dopo le 16
+    // Ricarica se la pagina in base all'apertura della stessa e dell'orario attuale
     setInterval(function(){
             var nowDate = new Date();
             var now = parseInt(nowDate.getHours() + '' + nowDate.getMinutes());
