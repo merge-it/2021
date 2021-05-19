@@ -64,6 +64,18 @@ else {
 }
 
 ?>
+<script>
+    window.opening_hour = new Date().getHours();
+    // Ricarica se la pagina è aperta da prima dell'intervallo dopo le 16
+    if (window.opening_hour <= 16) {
+        setInterval(function(){
+                var now_hour = new Date().getHours();
+                if (window.opening_hour <= 16 && now_hour >= 16) {
+                    window.location.reload(false);
+                }
+        }, 60000);
+    }
+</script>
 
 <div class="live_box">
 	<div class="row mb-5">
