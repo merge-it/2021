@@ -66,15 +66,21 @@ else {
 ?>
 <script>
     window.opening_hour = new Date().getHours();
+    window.opening_minute = new Date().getMinutes();
+    window.opening = parseInt(window.opening_hour + '' + window.opening_minute);
+    window.mattina = (window.opening_hour <= 14);
+    window.prima_sessione = (window.opening_hour <= 16);
+    window.seconda_sessione = (window.opening_hour <= 18);
     // Ricarica se la pagina è aperta da prima dell'intervallo dopo le 16
-    if (window.opening_hour <= 16) {
-        setInterval(function(){
-                var now_hour = new Date().getHours();
-                if (window.opening_hour <= 16 && now_hour >= 16) {
-                    window.location.reload(false);
-                }
-        }, 60000);
-    }
+    setInterval(function(){
+            var nowDate = new Date();
+            var now = parseInt(nowDate.getHours() + '' + nowDate.getMinutes());
+            if (
+                window.opening <= 1430 && now >= 1430 && now <= 1600 || window.opening <= 1600 && now >= 1600 && now <= 1800 || window.opening <= 1815 && now >= 1830 && now <= 1831
+                ) {
+                window.location.reload(false);
+            }
+    }, 60000);
 </script>
 
 <div class="live_box">
