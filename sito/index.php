@@ -259,7 +259,7 @@ $live_all = false;
 							</tr>
 							<tr>
 								<td colspan="4" style="weight: 2em;">
-									<div style="float:left;margin-left: 15px;">18:00/18:30</div>
+									<div style="float:left;margin-left: 15px;">18:00</div>
 									<div style="text-align:center">SALUTI FINALI</div>
 								</td>
 							</tr>
