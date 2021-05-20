@@ -35,6 +35,14 @@ $live_all = false;
 		</div>
 	<?php endif ?>
 
+	<?php if(!$live_all && !$live_one): ?>
+		<div class="row topbar">
+			<div class="col-12">
+				<h3>SABATO SARÀ POSSIBILE SEGUIRE LE SESSIONI TRAMITE QUESTO SITO</h3>
+			</div>
+		</div>
+	<?php endif ?>
+
 	<section class="intro">
 		<header>
 			<h1>MERGE-it</h1>
