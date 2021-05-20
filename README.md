@@ -18,6 +18,10 @@ Poi visita:
 
 http://localhost:8080/
 
+Compilare il Sass:
+
+`sassc sito/assets/sass/main.scss sito/assets/css/main.css`
+
 ### Info utili
 
 * Il server utilizza la versione 7.2 di PHP

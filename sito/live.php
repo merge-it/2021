@@ -7,7 +7,7 @@ $unified = false;
 $hour = date('H');
 
 if ($unified) {
-	$chat_url = 'mergeit1';
+	$chat_url = 'general';
 	$player_url = 'https://garr.tv/s/609fe2ee8780485dbd721f46';
 
 	if ($hour < 14) {
@@ -20,10 +20,11 @@ if ($unified) {
 else {
 	switch($session_id) {
 		case 1:
-			$chat_url = 'mergeit1';
+			$chat_url = 'merge-it-1a';
 			$player_url = 'https://garr.tv/s/609fe2ee8780485dbd721f46';
 
 			if ($hour >= 16) {
+                $chat_url = 'merge-it-1b';
 				$title = "Open Source nella Pubblica Amministrazione";
 			}
 			else {
@@ -33,10 +34,11 @@ else {
 			break;
 
 		case 2:
-			$chat_url = 'mergeit2';
+			$chat_url = 'merge-it-2a';
 			$player_url = 'https://garr.tv/s/609fe3378780481708721f47';
 
 			if ($hour >= 16) {
+                $chat_url = 'merge-it-2b';
 				$title = "Coinvolgimento sociale nel mondo Open Source";
 			}
 			else {
@@ -46,10 +48,11 @@ else {
 			break;
 
 		case 3:
-			$chat_url = 'mergeit3';
+			$chat_url = 'merge-it-3a';
 			$player_url = 'https://garr.tv/s/609fe34f878048396d721f48';
 
 			if ($hour >= 16) {
+                $chat_url = 'merge-it-3b';
 				$title = "Community management, struttura a livello nazionale/locale";
 			}
 			else {
@@ -69,7 +72,8 @@ else {
 		<h2><?php echo $title ?></h2>
 	    </div>
 	    <div class="col-2">
-		<a href="index.php" class="btn btn-sm btn-info" id="back-to-schedule">Torna al programma completo</a>
+            <a href="index.php" class="btn btn-mit btn-info" id="back-to-schedule">Torna al programma completo</a>
+            <a href="live.php?room=<?php echo $_GET['room'] ?>" class="btn btn-mit btn-info">Passa alla prossima sessione</a>
 	    </div>
 	</div>
 
