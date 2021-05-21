@@ -16,20 +16,23 @@ $communities = [
         'id' => 'devitalia',
         'links' => [
             'Sito' => 'https://developers.italia.it/',
-            'Slack' => 'https://slack.developers.italia.it/'
+            'Slack' => 'https://slack.developers.italia.it/',
+            'Twitteri' => 'https://twitter.com/developersITA'
         ]
     ],
     'Wikimedia Italia' => [
         'id' => 'wikitalia',
         'links' => [
-            'Sito' => 'https://www.wikimedia.it/'
+            'Sito' => 'https://www.wikimedia.it/',
+            'Twitter' => 'https://twitter.com/WikimediaItalia'
         ]
     ],
     'Free Software Foundation Europe' => [
         'id' => 'fsfe',
         'links' => [
             'Sito' => 'https://fsfe.org/',
-            'Forum' => 'https://community.fsfe.org/'
+            'Forum' => 'https://community.fsfe.org/',
+            'Twitter' => 'https://twitter.com/fsfe'
         ]
     ],
     'Informatici senza Frontiere' => [
@@ -43,7 +46,12 @@ $communities = [
     'Python Italia' => [
         'id' => 'pythonitalia',
         'links' => [
-            'Sito' => 'https://associazione.python.it/'
+            'Sito' => 'https://associazione.python.it/',
+            'Telegram' => 'https://t.me/python_ita',
+            'Twitter' => 'https://twitter.com/pyconit',
+            'Instagram' => 'https://instagram.com/python.it',
+            'Youtube' => 'https://youtube.com/c/pyconitalia',
+            'Facebook' => 'https://www.facebook.com/pythonitalia/',
         ]
     ],
     'onData' => [
@@ -57,7 +65,7 @@ $communities = [
         'id' => 'mozita',
         'links' => [
             'Sito' => 'https://www.mozillaitalia.org/',
-            'Twitter' => 'https://twitter.com/Mte90Net',
+            'Twitter' => 'https://twitter.com/MozillaItalia',
             'Telegram' => 'https://t.me/mozitabot'
         ]
     ],
@@ -81,13 +89,15 @@ $communities = [
     'Scala Italy' => [
         'id' => 'scala',
         'links' => [
-            'Sito' => 'https://scala-italy.it/'
+            'Sito' => 'https://scala-italy.it/',
+            'Twitter' => 'https://twitter.com/ScalaItaly'
         ]
     ],
     'OpenStreetMap Italia' => [
         'id' => 'osm',
         'links' => [
-            'Sito' => 'https://wiki.openstreetmap.org/wiki/Italy'
+            'Sito' => 'https://wiki.openstreetmap.org/wiki/Italy',
+            'Twitter' => 'https://twitter.com/OpenStreetMapIt'
         ]
     ],
     'Rust' => [
