@@ -74,6 +74,7 @@ $communities = [
             'Sito' => 'https://www.ils.org/',
             'Twitter' => 'https://twitter.com/ItaLinuxSociety',
             'Facebook' => 'https://www.facebook.com/ItaLinuxSociety/',
+            'Mastodon' => 'https://mastodon.uno/@ItaLinuxSociety',
             'Forum' => 'https://forum.linux.it/'
         ]
     ],
@@ -119,6 +120,8 @@ function getCommunitiesContent($communities)
         $communityContent .= '</ul>';
         array_push($content, $communityContent);
     }
+
+    shuffle($content);
     return $content;
 }
 
