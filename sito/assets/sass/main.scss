@@ -88,3 +88,12 @@
     background: #49fcd4;
     font-weight: 700;
 }
+
+@media screen and (max-width: 736px) {
+	.live_box {
+		.row > * {
+			width: 100% !important;
+		}
+	}
+}
+
