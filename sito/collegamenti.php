@@ -91,7 +91,7 @@ $communities = [
         'links' => [
             'Sito' => 'https://scala-italy.it/',
             'Twitter' => 'https://twitter.com/ScalaItaly',
-            'Slack' => 'scalaitaly.slack.com'
+            'Slack' => 'https://scalaitaly.slack.com'
         ]
     ],
     'OpenStreetMap Italia' => [
