@@ -214,18 +214,4 @@
 		popupAnchor:  [-15, -15]
 	});
 
-	var mapParams = {
-		attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-		subdomains: 'abcd',
-		minZoom: 0,
-		maxZoom: 18,
-	};
-
-	if ($('#homepage-map').length) {
-		var map = L.map('homepage-map').setView([45.0726, 7.6770], 13);
-		L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png', mapParams).addTo(map);
-		L.marker([45.09033, 7.68568], {icon: starIcon}).bindPopup("Giovedi 2 Aprile<br>Venerdi 3 Aprile<br><br><b>Open Incet</b><br>Piazza Teresa Noce 17").addTo(map);
-		L.marker([45.05025, 7.66913], {icon: starIcon}).bindPopup("Sabato 4 Aprile<br>Domenica 5 Aprile<br><br><b>Toolbox</b><br>Via Agostino da Montefeltro 2").addTo(map);
-	}
-
 })(jQuery);
