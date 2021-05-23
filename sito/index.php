@@ -38,7 +38,7 @@ $live_all = false;
 	<?php if(!$live_all && !$live_one): ?>
 		<div class="row topbar">
 			<div class="col-12">
-				<h3>SABATO SARÀ POSSIBILE SEGUIRE LE SESSIONI TRAMITE QUESTO SITO</h3>
+				<h3>EVENTO CONCLUSO! NELLA GRIGLIA DEL PROGRAMMA TROVI I LINK AI VIDEO REGISTRATI!</h3>
 			</div>
 		</div>
 	<?php endif ?>
@@ -224,14 +224,17 @@ $live_all = false;
 								<td class="pending" width="30%">
 									<strong>1A: La didattica in DAD dalla formazione docenti ai problemi tecnici</strong><br>
 									LibreItalia, Lavagna Libera, ISF
+									<a href="https://video.linux.it/videos/watch/c18e6f8d-7783-4fe3-a73d-e0064fb90f76" class="button" style="margin-top: 10px; display: block">Riguarda il Video</a>
 								</td>
 								<td class="pending" width="30%">
 									<strong>2A: Sviluppo con l'open source all'interno dell'azienda e nel mondo accademico</strong><br>
 									GFOSS.it, Python Italia, Rust Italia, ILS, Scala Italy
+									<a href="https://video.linux.it/videos/watch/79f22a7b-9580-4ef3-bc8f-f737e55c79ac" class="button" style="margin-top: 10px; display: block">Riguarda il Video</a>
 								</td>
 								<td class="pending" width="30%">
 									<strong>3A: Open Data, licenze e formati, dataset</strong><br>
 									Wikimedia, OpenStreetMap, onData, Developers Italia, LibreItalia
+									<a href="https://video.linux.it/videos/watch/30f2d678-c2e2-4b7e-9486-8e3f44398dd3" class="button" style="margin-top: 10px; display: block">Riguarda il Video</a>
 								</td>
 							</tr>
 							<tr>
@@ -247,14 +250,17 @@ $live_all = false;
 								<td class="pending" width="30%">
 									<strong>1B: Open Source nella Pubblica Amministrazione</strong><br>
 									Libreitalia, Developers Italia, FSFE
+									<a href="https://video.linux.it/videos/watch/5cd3dc9f-200e-4e7c-9466-81da787ea519" class="button" style="margin-top: 10px; display: block">Riguarda il Video</a>
 								</td>
 								<td class="pending" width="30%">
 									<strong>2B: Coinvolgimento sociale nel mondo Open Source</strong><br>
 									Mozilla Italia, ISF, OpenStreetMap, Lavagna Libera
+									<a href="https://video.linux.it/videos/watch/1f956321-f7ee-4996-bb74-2adf08b3bbe7" class="button" style="margin-top: 10px; display: block">Riguarda il Video</a>
 								</td>
 								<td class="pending" width="30%">
 									<strong>3B: Community management, struttura a livello nazionale/locale</strong><br>
 									Wikimedia, Mozilla Italia, Python Italia, ILS, Rust Italia
+									<a href="https://video.linux.it/videos/watch/9d965681-1b97-4a37-8375-c863ebab72ec" class="button" style="margin-top: 10px; display: block">Riguarda il Video</a>
 								</td>
 							</tr>
 							<tr>
