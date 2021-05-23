@@ -17,7 +17,7 @@ $communities = [
         'links' => [
             'Sito' => 'https://developers.italia.it/',
             'Slack' => 'https://slack.developers.italia.it/',
-            'Twitteri' => 'https://twitter.com/developersITA'
+            'Twitter' => 'https://twitter.com/developersITA'
         ]
     ],
     'Wikimedia Italia' => [
